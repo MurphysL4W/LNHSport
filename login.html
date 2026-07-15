@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | LCNHS Research Portal</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+
+            <img src="images/logo.png" alt="School Logo">
+
+            <div class="logo-text">
+                <h2>LCNHS</h2>
+                <span>Research Portal</span>
+            </div>
+
+        </a>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="library.html">Library</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- ================= LOGIN ================= -->
+
+<section class="login-section">
+
+    <!-- LEFT SIDE -->
+
+    <div class="login-left">
+
+        <img src="images/logo.png" alt="School Logo">
+
+        <h1>Welcome Back!</h1>
+
+        <p>
+
+            Access the Legazpi City National High School
+            Digital Research Repository.
+
+        </p>
+
+        <ul class="login-features">
+
+            <li><i class="bi bi-check-circle-fill"></i> Browse Research Papers</li>
+
+            <li><i class="bi bi-check-circle-fill"></i> Student & Admin Portal</li>
+
+            <li><i class="bi bi-check-circle-fill"></i> Secure Academic Repository</li>
+
+        </ul>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+
+    <div class="login-card">
+
+        <h2>Login</h2>
+
+        <p>Please sign in to continue.</p>
+
+        <form>
+
+            <div class="input-group">
+
+                <label>Username</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your username"
+                    required>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Password</label>
+
+                <div class="password-box">
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required>
+
+                    <i
+                        class="bi bi-eye"
+                        id="togglePassword">
+                    </i>
+
+                </div>
+
+            </div>
+
+            <div class="login-options">
+
+                <label>
+
+                    <input type="checkbox">
+
+                    Remember Me
+
+                </label>
+
+                <a href="#">
+
+                    Forgot Password?
+
+                </a>
+
+            </div>
+
+            <button class="login-submit">
+
+                Login
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ================= JS ================= -->
+
+<script src="js/script.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>
